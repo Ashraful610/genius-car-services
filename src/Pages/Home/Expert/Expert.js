@@ -3,13 +3,13 @@ import React from 'react';
 const Expert = ({expert}) => {
     const {name , img} = expert
     return (
-        <div className="col-lg-4 col-md-6 col-sm-12 gy-5 gx-5">
+        <div  className="col-lg-4 col-md-6 col-sm-12 gy-5 gx-5">
            <div className='card'>
-              <img src={img} class="card-img-top" alt="..."/>
-           <div class="card-body">
-              <h5 class="card-title">{name}</h5>
-               <p class="card-text">Some quick example text to build on the  card    title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <img src={img} className="card-img-top" alt="..."/>
+           <div className="card-body">
+              <h5 className="card-title">{name}</h5>
+               <p className="card-text">Some quick example text to build on the  card    title and make up the bulk of the card's content.</p>
+              <a href="#" className="btn btn-primary">Go somewhere</a>
              </div>
            </div>
         </div>
